@@ -25,23 +25,23 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2200"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colbert_emoji" translatesAutoresizingMaskIntoConstraints="NO" id="JTF-eX-JYT">
-                                                <rect key="frame" x="67" y="69" width="240" height="128"/>
+                                                <rect key="frame" x="67" y="69" width="240" height="500"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="240" id="00u-5K-h3D"/>
-                                                    <constraint firstAttribute="height" constant="128" id="ss3-RN-APq"/>
+                                                    <constraint firstAttribute="height" constant="500" id="ss3-RN-APq"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colbert_emoji" translatesAutoresizingMaskIntoConstraints="NO" id="g2D-Mc-V3Y">
-                                                <rect key="frame" x="67" y="1416" width="240" height="240"/>
+                                                <rect key="frame" x="67" y="1350" width="240" height="800"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="240" id="6Hm-KR-Yt8"/>
+                                                    <constraint firstAttribute="height" constant="800" id="6Hm-KR-Yt8"/>
                                                     <constraint firstAttribute="width" constant="240" id="R0F-at-iM3"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="g2D-Mc-V3Y" secondAttribute="bottom" constant="544" id="JRv-Hm-8pp"/>
+                                            <constraint firstAttribute="bottom" secondItem="g2D-Mc-V3Y" secondAttribute="bottom" constant="50" id="JRv-Hm-8pp"/>
                                             <constraint firstAttribute="height" constant="2200" id="KAF-Ow-Lpe"/>
                                             <constraint firstItem="JTF-eX-JYT" firstAttribute="top" secondItem="4w9-Al-HXT" secondAttribute="top" constant="69" id="XJi-lG-Ek7"/>
                                             <constraint firstItem="JTF-eX-JYT" firstAttribute="centerX" secondItem="4w9-Al-HXT" secondAttribute="centerX" id="qQS-Ew-vb1"/>
